@@ -35,4 +35,9 @@ public class sumclosest {
         
         return ret;
     }
+    public static void main(String args[]){
+        int result;
+        String[] bArray = {"1","3","3", "5", "6","8"};
+        result=threeSumClosest(bArray,5);
+    }
 }
